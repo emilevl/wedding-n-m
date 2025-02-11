@@ -11,5 +11,7 @@ export default defineConfig({
     plugins: [tailwindcss()]
   },
 
-  integrations: [vue()]
+  integrations: [vue()],
+  output: 'static',
+  base: '/n-m/',
 });
