@@ -1,1 +1,19 @@
 @import "tailwindcss";
+
+h2 {
+  text-align: center;
+  font-weight: bold;
+  position: relative;
+  display: inline-block;
+}
+
+h2::after {
+  content: "";
+  position: absolute;
+  right: 0px;
+  bottom: -5px; /* Adjust spacing as needed */
+  width: 75%;
+  height: 1rem; /* Underline thickness */
+  background: #B45250;
+  z-index: -1;
+}
