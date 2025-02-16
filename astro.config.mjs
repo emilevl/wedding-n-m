@@ -13,5 +13,5 @@ export default defineConfig({
 
   integrations: [vue()],
   output: 'static',
-  base: '/wedding-n-m/',
+  base: '/',
 });
